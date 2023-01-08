@@ -53,3 +53,11 @@ document.getElementById("days1").innerHTML = imgElementString + '+' + ' ' + Math
   
 
 })
+
+
+
+
+
+
+
+

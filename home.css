@@ -1,4 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+
+.custermer {
+  font-size: 16px; /* 기본 폰트 사이즈를 16px로 지정합니다. */
+  font-family: 'Pretendard';
+  font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    color: rgb(187, 187, 187);
+    left: 50%; /* 요소의 수평 중앙으로 지정합니다. */
+    transform: translateX(-50%); /* 요소의 중앙을 수평 중앙으로 이동합니다. */
+}
+
+.intro {
+  font-size: 16px; /* 기본 폰트 사이즈를 16px로 지정합니다. */
+  font-family: 'BhuTuka Expanded One';
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    color: rgb(187, 187, 187);
+    left: 50%; /* 요소의 수평 중앙으로 지정합니다. */
+    transform: translateX(-50%); /* 요소의 중앙을 수평 중앙으로 이동합니다. */
+}
 
 
 #days1 {
@@ -61,3 +88,136 @@
     background-color: rgb(20, 20, 20);
   }
   
+
+
+@import url(//fonts.googleapis.com/css?family=Vibur);
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg) center
+    no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+
+.logo {
+  position: absolute;
+  text-align: center;
+  top: 18%;
+  left: 50%;
+  right: 50%;
+  margin-left: -50%; /* logo의 너비의 절반 */
+  margin-right: -50%; /* logo의 너비의 절반 */
+}
+
+
+
+
+
+.logo b {
+  font-size: 80px; /* 기본 폰트 사이즈를 16px로 지정합니다. */
+  font-family: 'BhuTuka Expanded One';
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4460ff, 0 0 0.5em #4460ff,
+    0 0 0.1em #4460ff, 0 10px 3px #000;
+}
+.logo b span {
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+
+.intro {
+  position: relative;
+  text-align: center;
+  top: 25%;
+}
+
+
+
+
+
+.intro b {
+  font-size: 24px; /* 기본 폰트 사이즈를 16px로 지정합니다. */
+  font-family: 'Pretendard';
+  font-weight: 200;
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4460ff, 0 0 0.5em #4460ff,
+    0 0 0.1em #4460ff, 0 10px 3px #000;
+}
+.intro b span {
+  animation: blink linear infinite 1.8s;
+}
+.intro b span:nth-of-type(2) {
+  animation: blink linear infinite 3.1s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
